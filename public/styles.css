@@ -1,0 +1,79 @@
+.bgBlue {
+    background-color: blue;
+}
+.textWhite {
+    color: white;
+}
+.bgRed {
+    background-color: red;
+}
+.bgGreen {
+    background-color: green;
+}
+#sizeLarge {
+
+    font-size: 10em;
+}
+row {
+    text-align: left;
+}
+.carousel-image {
+    width: 100vw;
+    max-height: 400px;
+    object-fit: cover;
+
+}
+.carousel {
+    margin-bottom: 3em;
+}
+
+.bordertest {
+    border: 5px solid black;
+}
+
+#socialIcons {
+    font-size: 4em;
+    padding: 0px 5vw 0px 5vw;
+}
+
+.well > a:hover {
+    height: 3px;
+    text-decoration: none;
+    color:blue;
+}
+
+.story1 {
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+    height: 200px;
+    
+}
+
+@font-face{
+    font-family:lobster;
+    src: url(Lobster_1.3.otf);
+  
+  }
+.copyright{
+    font-weight: lobster;
+}
+  
+
+.footer .well .copyright {
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    
+}
+.map {
+    height: 30vh;
+}
+@media (max-width: 767px) /* @grid-float-breakpoint -1 */
+{
+    .navbar-fixed-top
+    {
+    position: relative;
+    top: auto;
+    }
+}
